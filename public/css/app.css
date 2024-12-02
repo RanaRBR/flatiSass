@@ -98,9 +98,89 @@ nav {
 
 .box1 {
   width: 20%;
-  height: 200px;
+  height: 240px;
   background-color: rgb(226, 224, 224);
   border-raduis: 25px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+.box1 span {
+  color: #3676BB;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 5%;
+  align-content: center;
+}
+
+h4 {
+  color: rgb(112, 106, 103);
+}
+
+.sousTitre {
+  color: rgb(91, 187, 215);
+}
+
+.flex2 {
+  display: flex;
+  width: 100%;
+  margin-top: 10%;
+}
+.flex2 h2 {
+  color: rgb(122, 132, 141);
+}
+
+.bloc {
+  width: 30%;
+  margin-left: 8%;
+  font-size: small;
+}
+.bloc p:first-of-type {
+  color: rgb(180, 180, 180);
+}
+.bloc p:last-of-type {
+  color: rgb(112, 106, 103);
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(38, 162, 204);
+  border: none;
+  margin-top: 5%;
+}
+
+.flex3 {
+  width: 50%;
+  display: flex;
+  margin-left: 4%;
+  gap: 5px;
+  margin-bottom: 15%;
+}
+.flex3 img {
+  width: 250px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.couleur {
+  background-color: rgb(56, 72, 95);
+  width: 250px;
+  text-align: center;
+  margin-top: -10%;
+  padding-top: 5%;
+}
+.couleur h4 {
+  color: white;
+}
+.couleur p {
+  color: rgb(180, 180, 180);
+  font-size: small;
+  padding-bottom: 5%;
 }
 
 /*# sourceMappingURL=app.css.map */
