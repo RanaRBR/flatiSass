@@ -69,6 +69,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .ban p {
@@ -84,6 +85,22 @@ nav {
 
 .comp {
   color: rgb(38, 162, 204);
+}
+
+.flex1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 240px;
+  gap: 20px;
+}
+
+.box1 {
+  width: 20%;
+  height: 200px;
+  background-color: rgb(226, 224, 224);
+  border-raduis: 25px;
 }
 
 /*# sourceMappingURL=app.css.map */
